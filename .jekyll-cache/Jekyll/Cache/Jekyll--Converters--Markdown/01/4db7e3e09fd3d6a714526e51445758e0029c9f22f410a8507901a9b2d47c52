@@ -1,0 +1,95 @@
+I"ø<p>For our junior design course, we designed, manufactured, and constructed syringe pump. The device controlled volume and rate of fluid administered by syringe using rotations of stepper motor. Several SolidWorks models were developed throughout the design process. Modification were implemented following feedback from design review presentations. The pump includes an acrylic base, along with a stepper motor fixed in place by a backplate. The syringe holder and base rollers were designed in SolidWorks and printed in ABS plastic on a Fusion Deposition Modeling (FDM) machine. All gears were ordered from McMaster-Carr. Operated device using PIC micro-controller programmed in C.Completed project under $100 budget with three-student team.</p>
+
+<p><img src="/assets/images/juniordesignsyringepump_allie_brennan_nick-e1421129141391.png?w=660" alt="JuniorDesignSyringePump_Allie_Brennan_Nick-e1421129141391" /></p>
+
+<h4 id="goals-of-the-project">Goals of the Project</h4>
+
+<ul>
+  <li>To design and assemble a syringe pump which will accurately distribute a precise amount of fluid</li>
+  <li>To include a stepper motor, a gear system, and parts manufactured withan FDM and a laser cutter</li>
+</ul>
+
+<h4 id="important-design-features">Important Design Features</h4>
+
+<ul>
+  <li>Precision and accuracy</li>
+  <li>Manufacturing Simplicity</li>
+  <li>Cost efficiency</li>
+  <li>Material Accessibility</li>
+  <li>Durability</li>
+</ul>
+
+<h4 id="production-timeline"><strong>Production Timeline</strong></h4>
+
+<p>Start Date: 28 February 2013<br />
+End Date: 20 April 2013</p>
+
+<p><img src="/assets/images/image-1-e1421125651838.png" alt="Syringe Pump Gantt Chart" /></p>
+
+<h4 id="preliminary-design-concept">Preliminary Design Concept.</h4>
+
+<p>Each team member proposed a drive system and mounting configuration for the syringe.</p>
+
+<p><img src="/assets/images/my-syringe-pump-e1544294568568.png" alt="My Syringe Pump" height="300px" /> <br />
+<em>My initial design concept</em></p>
+
+<h4 id="initial-solidworks-design">Initial SolidWorks Design</h4>
+
+<p>Our group decided to modify my initial SolidWorks design to present at our Design Review. Improvements to the model include removing excess material, adding guard rails to side of syringe-plunger guide, introducing rollers to ease movement, and re-designing the gear system. These improvements streamlined the system, made the device more durable, and allowed a greater gear ratio.</p>
+
+<table>
+  <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/syringe-pump-solidworks-ii.png" alt="My Syringe Pump" />
+ </td>
+      <td><img src="/assets/images/roller-holder-pic.jpg" alt="My Syringe Pump" /> </td>
+    </tr>
+    <tr>
+      <td> <em>Updated SolidWorks Design</em></td>
+      <td> <em>Roller Insert for Base. Guard rails made out of acrylic. Rollers made on FDM (ABS). Plastic screws.</em>  </td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="final-solidworks-design">Final SolidWorks Design</h4>
+
+<p>Our final SolidWorks design removed the guard rails due to concerns about excessive cost outweighing benefit. Additionally, the base was split into several acrylic layers for prototyping purposes. This allowed us to cheaply manufacture a prototype which could be easily assembled. The base layers, which may be seen below, included inserts for the gear and stepper motor attachments. These vertical layers were super glued once they were properly inserted to ensure they remained upright. The syringe holder was also modified to allow the insertion of several syringe sizes.</p>
+
+<table>
+  <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/final-syringe-pump-pic.jpg" alt="My Syringe Pump" />
+ </td>
+      <td><img src="/assets/images/layers-picture-e1421125874826.jpg" alt="My Syringe Pump" /> </td>
+    </tr>
+    <tr>
+      <td> <em>Final SolidWorks Design</em> </td>
+      <td> <em>Base Layers</em>  </td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="cost-calculations">Cost Calculations</h4>
+
+<p><img src="/assets/images/syring-pump-cost-calculations.png" alt="syring pump cost calculations" /></p>
+
+<h4 id="future-improvements">Future Improvements</h4>
+
+<ul>
+  <li>Stronger motor</li>
+  <li>Larger gear ratio</li>
+  <li>Adjustable gear and motor mounts</li>
+  <li>Simpler base plate</li>
+  <li>Possibly change to lead screw method to increase mechanical advantage</li>
+</ul>
+
+<h4 id="team-members-allie-pinosky-brennan-grusky-nick-norman">Team members: Allie Pinosky, Brennan Grusky, Nick Norman</h4>
+:ET

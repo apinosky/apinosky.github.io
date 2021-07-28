@@ -1,0 +1,40 @@
+I"�<p>In the first quarter of my graduate program, I took a project-based course, which provided experience with a variety of software tools and concepts useful for a robotics engineer working with practical embedded systems. In this course, I learned how to use the Robot Operating System (ROS), with all major assignments programmed in Python. This page highlights the final project completed at the end of the course. The “theme” of the final project was <em>Recreational Robotics</em>.</p>
+
+<h1 id="goals-of-the-project">Goals of the Project</h1>
+<p>For this project, the robot tasks had to include:</p>
+
+<ol>
+  <li><em>Manuipulation:</em> The robot must physically interact with at least one object in the environment using the robot’s arm and or grippers</li>
+  <li><em>Sensing:</em> The solution must use at least one sensor, and the behavior of the robot must change in response to the sensor reading</li>
+  <li><em>Human Interaction:</em> A human user should be able to do something to change what the robot does, without needing to program</li>
+</ol>
+
+<h1 id="final-task-overview">Final Task Overview</h1>
+<p>My group used a Baxter robot to assemble a MEGA BLOKS pyramid from the blocks provided by the user. The Baxter robot has two arms. For this task, one arm was used for visualization, and the other was used for manipulation. The general flow is:</p>
+
+<ol>
+  <li>Initialize Baxter</li>
+  <li>Human places blocks on tray → <em>Human Interaction</em></li>
+  <li>Baxter detects location of a block (with right hand) → <em>Sensing</em></li>
+  <li>Goal block is displayed to user on screen</li>
+  <li>Baxter navigates to block, picks it up, and places it in the pyramid location (with left hand) → <em>Manipulation</em></li>
+  <li>Baxter repeats steps 3 and 4 until the pyramid is complete</li>
+</ol>
+
+<h1 id="my-role">My Role</h1>
+<p>For this project, I set up the initialization protocol for the task. I also Luxi set up the MoveIt!, which was used to move the arm into place over a block prior to pickup. I served as systems the systems integrator for the project – setting up the overall flow and ensuring the sensing and manipulation portions of the project were compatible. When we had to pivot from our initial plan of using pure position control to force control to manipulate the blocks, I worked with Luxi to make the necessary controls modifications.</p>
+
+<h1 id="video">Video</h1>
+
+<iframe width="669" height="459" src="https://www.youtube.com/embed/mz1FwBR94og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h1 id="future-improvements">Future Improvements</h1>
+
+<ul>
+  <li>Adding closed-loop control with the camera (to verify block placement and allow more accurate positioning)</li>
+  <li>Updating feedback control on the gripper to sense if the gripper is indeed holding the block at the desired position</li>
+</ul>
+
+<h4 id="team-members-allie-pinosky-luxi-huang-marcel-bonnici-senthil-palanisamy">Team members: Allie Pinosky, Luxi Huang, Marcel Bonnici, Senthil Palanisamy</h4>
+<p><img src="/assets/images/megablox.png" alt="team" /></p>
+:ET

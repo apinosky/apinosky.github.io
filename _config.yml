@@ -32,9 +32,11 @@ linkedin_username: allisonpinosky
 include:
   - /_pages
 header_pages:
-  - _pages/presentations.html
-  - _pages/projects.html
+  # - _pages/presentations.html
   - _pages/work.md
+  # - _pages/projects.html
+  - _pages/grad-projects.html
+  # - _pages/directory.html
 
 # Build settings
 markdown: kramdown

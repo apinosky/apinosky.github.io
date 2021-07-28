@@ -1,17 +1,29 @@
 ---
 layout: page
 permalink: /undergrad_projects/
-title: Undergraduate Projects
+title: Undergraduate Course Projects
 ---
 
-<p> This section highlights many of the projects I worked on while in the Biomedical Engineering Department at the University of North Carolina at Chapel Hill. Team projects have the names of each team member at the bottom of the project page. For team projects I have attempted to highlight the specific parts of the project that I worked on; however, some of these projects had the entire team collaborating on each aspect of the project so this is not possible for all of them. </p>
+<p> This section highlights many of the projects I worked on while in the
+    Biomedical Engineering Department at the University of North Carolina
+    at Chapel Hill. Team projects have the names of each team member at the
+    bottom of the project page. For team projects I have attempted to
+    highlight the specific parts of the project that I worked on,
+    where possible; however, some projects had the entire team
+    collaborating on each aspect of the project.
+    For Graduate Course Projects, <a href="/graduate_projects/">Click Here</a>
+</p>
 
 
 <hr color=grey>
 
+{% assign pic = 'left' %}
+
 {% for post in site.categories.Projects %}
+  {% capture pic %}{% cycle 'left', 'right'%}{% endcapture %}
+  <!-- {{forloop.index}} -->
   <p>
-    <img src={{post.photo}} height="200px" alt="" align="right" hspace="15" vspace="15" >
+    <img src={{post.photo}} height="200px" alt="" align="{{pic}}" hspace="15" vspace="15" >
     <span style="font-size:200%; line-height:1.25"><a href="{{ post.url }}">{{ post.title }}</a></span> <br>
     <span style="line-height:2.5"><b>{{ post.subtitle}}</b></span> <br>
     {{ post.content | strip_html | truncatewords:40}}

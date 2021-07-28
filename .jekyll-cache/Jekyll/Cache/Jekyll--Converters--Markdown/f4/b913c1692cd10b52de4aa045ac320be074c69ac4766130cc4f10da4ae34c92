@@ -1,0 +1,6 @@
+I"Ž<p>In the second quarter of my graduate program, I took a Robot Operating System (ROS), which built on the prior embedded systems course <a href="/graduate_projects/2019/12/21/ROS/">link</a>. All assignments in this course were programmed in C++ (different than the prior ROS course which used Python). This page highlights the quarter-long project completed throughout this course.</p>
+
+<p>Throughout this course, we built up libraries to do simultaneous localization and mapping (SLAM) on both a physical robot (turtlebot) and a simulated robot in Gazebo. We had to build up libraries to handle rigid transformations, waypoint following, wheeled mobile robot kinematics, odometry, simulation in RVIZ and Gazebo, and collision detection. Once these libraries were complete, we tackled the final task of implementing feature-based kalman filter SLAM, which is highlighted here.</p>
+
+<p>&lt; add video &gt;</p>
+:ET

@@ -40,6 +40,6 @@ DeltaDose’s unique characteristics give it a large advantage over the current 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TNkaKnGUSoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[DeltaSquad Poster](/assets/pdfs/deltasquad-poster.pdf)
+<!-- [DeltaSquad Poster](/assets/pdfs/deltasquad-poster.pdf) -->
 
 ### Team members: Allie Pinosky, Alanna Smith, Jenna Kilgore, and Kevin Simpson

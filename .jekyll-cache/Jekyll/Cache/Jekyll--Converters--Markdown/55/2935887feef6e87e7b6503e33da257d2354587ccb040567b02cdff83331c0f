@@ -1,0 +1,2 @@
+I"<p>Designed circuit with five input controls (switches and pushbuttons), three LEDs, fiber optics, buzzer, and fan. Developed three stages using digital electronics: logic gates, one shot, shift register, demultiplexer, counter, and SR latch. <!--more--> Simulated circuit in MultiSim. Tested on breadboard. Soldered and packaged final product. Utilized feedback and sequential logic to ensure stages must be unlocked in order. Forced stage reset upon incorrect timing or sequence. Indicated stage completion with LEDs.</p>
+:ET

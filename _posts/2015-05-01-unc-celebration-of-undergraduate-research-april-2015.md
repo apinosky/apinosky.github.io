@@ -7,7 +7,7 @@ categories:
 tags:
 - Research
 - UNC BME
-permalink: "/2015/05/01/unc-celebration-of-undergraduate-research-april-2015/"
+permalink: "/unc-celebration-of-undergraduate-research-april-2015/"
 photo: "/assets/images/unc_logo2.png"
 ---
 
