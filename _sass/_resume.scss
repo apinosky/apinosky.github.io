@@ -1,0 +1,189 @@
+// @name Resume
+// @description All resume styles
+
+dl {
+    margin-bottom: $spacer;
+}
+
+dt, dd {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: $spacer;
+}
+
+@media(min-width: 640px) {
+    
+    dt {
+        padding-right: 5px;
+    }
+
+    dd {
+        text-align: justify;
+    }
+
+    dt, dd {
+        margin-bottom: 40px;
+    }
+
+    .mission {
+        dt {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .experience {
+        dt {
+            width: 30%;
+            padding-right: $spacer;
+        }
+        dd {
+            width: 70%;
+        }
+    }
+
+    .education {
+        dt {
+            padding-right: $spacer;
+        }
+        dt, dd {
+            width: 50%;
+        }
+    }
+
+    .publications {
+        dt {
+            width: 100%;
+            // padding-right: $spacer;
+        }
+        // dd {
+        //     width: 30%;
+        // }
+    }
+}
+
+.title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+i {
+    font-style: italic;
+}
+
+a {
+    color: black!important;
+    background: rgba(66, 134, 244, 0);
+    transition: all linear .2s;
+
+    &:hover {
+        background: rgba(66, 134, 244, .3);
+        text-decoration: none;
+    }
+}
+
+.publication-link a {
+	border: 0.08rem solid rgb(0, 0, 0);
+	padding-top: 0.05rem;
+	padding-right: 0.15rem;
+	padding-bottom: 0.05rem;
+	padding-left: 0.15rem;
+}
+
+/* more jobs */
+
+.showMoreJobs {
+	padding-top: 3.0rem;
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+    display: none;
+    dt {
+        width: 30%;
+        padding-right: $spacer;
+    }
+    dd {
+        width: 70%;
+    }
+}
+.showMoreJobs-trigger:hover {
+    background: rgba(66, 134, 244, .3);
+}
+
+.showMoreJobs-state {
+    display: none;
+  }
+  
+.showMoreJobs-state:checked ~ .showMoreJobs {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+    display: block;
+}
+
+.showMoreJobs-state ~ .showMoreJobs-trigger:before {
+    content: 'Show More';
+}
+
+.showMoreJobs-state:checked ~ .showMoreJobs-trigger:before {
+    content: 'Show Less';
+}
+
+.showMoreJobs-trigger {
+    border: 0.1rem solid #CCC;
+    padding: 0.6rem;
+    /* font-size: 24px; */
+    width: 8rem;
+    text-align: center;
+    /* color: #999; */
+    margin: 0px auto;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+  
+/* more pubs */
+.showMorePubs {
+	padding-top: 3.0rem;
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+    display: none;
+}
+
+.showMorePubs-trigger:hover {
+    background: rgba(66, 134, 244, .3);
+}
+
+.showMorePubs-state {
+    display: none;
+  }
+  
+.showMorePubs-state:checked ~ .showMorePubs {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+    display: block;
+}
+
+.showMorePubs-state ~ .showMorePubs-trigger:before {
+    content: 'Show More';
+}
+
+.showMorePubs-state:checked ~ .showMorePubs-trigger:before {
+    content: 'Show Less';
+}
+
+.showMorePubs-trigger {
+    border: 0.1rem solid #CCC;
+    padding: 0.6rem;
+    /* font-size: 24px; */
+    width: 8rem;
+    text-align: center;
+    /* color: #999; */
+    margin: 0px auto;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}

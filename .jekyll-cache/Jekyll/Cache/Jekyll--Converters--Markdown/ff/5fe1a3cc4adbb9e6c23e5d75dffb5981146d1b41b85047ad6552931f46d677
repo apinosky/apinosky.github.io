@@ -1,2 +1,0 @@
-I"O<p>Designed system including H-bridge controlled DC motor with notched-wheel attachment and optical detector. Used pulse width modulation to operate H-Bridge and modify motor speed. Developed adaptive LabVIEW system to adjust pulse width and force DC motor to match user-specified desired RPM using feedback from optical detector.</p>
-:ET

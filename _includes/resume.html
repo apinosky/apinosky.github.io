@@ -1,0 +1,110 @@
+<dl class="mission">
+    <dt>
+        {{site.data.bio.tldr}}
+    <dt/>
+</dl>
+
+<h3 class="section-title">Bio</h3>
+<dl class="mission">
+    <dt>
+        {{site.data.bio.bio}}
+    <dt/>
+</dl>
+
+<h3 class="section-title">Experience</h3>
+<dl class="experience">
+    {% for job in site.data.jobs limit:site.num_jobs  %}
+        <dt>
+            <p class="title">{{ job.title }}</p>
+            <p class="company">{{ job.company }}</p>
+            <p class="period">{{ job.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ job.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+<div>
+    <input type="checkbox" class="showMoreJobs-state" id="showMoreJobs"/>
+    <label for="showMoreJobs" class="showMoreJobs-trigger"></label>
+    <div class="showMoreJobs">
+        {% for job in site.data.jobs offset:site.num_jobs  %}
+            <dt>
+                <p class="title">{{ job.title }}</p>
+                <p class="company">{{ job.company }}</p>
+                <p class="period">{{ job.period }}</p>
+            </dt><!--
+            --><dd>
+                <p>{{ job.description }}</p>
+            </dd>
+        {% endfor %}
+    </div>
+</div>
+
+<h3 class="section-title">Publications</h3>
+<dl class="publications">
+    {% for pub in site.data.publications limit:site.num_pubs %}
+        <dt>
+            {% if pub.link %}
+            <p class="title"><a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a></p>
+            {% else %}
+            <p class="title">{{ pub.title }}</p>
+            {% endif %}
+            <p class="company">{{ pub.authors}}</p>
+            <p class="company">{{ pub.venue }}. {{pub.year}}.</p>
+            <p class="publication-link">{{ qualification.period }}
+                {% if pub.supplement %}<a href="{{pub.supplement}}" target="_blank" rel="noreferrer noopener">Supplementary Material</a>{% endif %}
+                {% if pub.bibtex %}<a href="/bibtex/{{pub.bibtex}}.bib" target="_blank">Bibtex</a>{% endif %}
+                {% if pub.code %}<a href="{{pub.code}}" target="_blank" rel="noreferrer noopener">GitHub</a>{% endif %}
+                {% if pub.video %}<a href="{{pub.video}}" target="_blank" rel="noreferrer noopener">Video</a>{% endif %}
+            </p>
+        </dt>
+    {% endfor %}
+</dl>
+
+<div>
+    <input type="checkbox" class="showMorePubs-state" id="showMorePubs"/>
+    <label for="showMorePubs" class="showMorePubs-trigger"></label>
+    <div class="showMorePubs">
+        {% for pub in site.data.publications offset:site.num_pubs %}
+            <dt>
+                {% if pub.link %}
+                <p class="title"><a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a></p>
+                {% else %}
+                <p class="title">{{ pub.title }}</p>
+                {% endif %}
+                <p class="company">{{ pub.authors}}</p>
+                <p class="company">{{ pub.venue }}. {{pub.year}}.</p>
+                <p class="publication-link">{{ qualification.period }}
+                    {% if pub.supplement %}<a href="{{pub.supplement}}" target="_blank" rel="noreferrer noopener">Supplementary Material</a>{% endif %}
+                    {% if pub.bibtex %}<a href="/bibtex/{{pub.bibtex}}.bib" target="_blank">Bibtex</a>{% endif %}
+                    {% if pub.code %}<a href="{{pub.code}}" target="_blank" rel="noreferrer noopener">GitHub</a>{% endif %}
+                    {% if pub.video %}<a href="{{pub.video}}" target="_blank" rel="noreferrer noopener">Video</a>{% endif %}
+                    {% if pub.poster %}<a href="{{pub.poster}}" target="_blank" rel="noreferrer noopener">Poster</a>{% endif %}
+                </p>
+            </dt>
+        {% endfor %}
+    </div>
+</div>
+
+
+<h3 class="section-title">Education</h3>
+<dl class="education">
+    {% for qualification in site.data.education %}
+        <dt>
+            <p class="title">{{ qualification.qualification }}</p>
+            <p class="company">{{ qualification.school }}</p>
+            <p class="period">{{ qualification.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ qualification.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Extracurricular Interests</h3>
+<dl class="mission">
+    <dt>
+        {{site.data.bio.extracurricular}}
+    <dt/>
+</dl>
