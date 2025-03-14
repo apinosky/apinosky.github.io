@@ -1,35 +1,35 @@
 # - title: Optimizing Robot Designs for Faster Learning
-#   authors: M. Schlafly, J. Ketchum, <mark> A. Pinosky</mark>, T.D. Murphey
+#   authors: M. Schlafly, J. Ketchum, <span class="me"> A. Pinosky</span>, T.D. Murphey
 #   venue: Under Review # RSS 2025
 #   year: 2025
   
 
 # - title: Flow Matching Ergodic Coverage
-#   authors: M. Sun, <mark> A. Pinosky</mark>, T.D. Murphey
+#   authors: M. Sun, <span class="me"> A. Pinosky</span>, T.D. Murphey
 #   venue: Under Review # RSS 2025
 #   year: 2025
 
 
 # - title: Real-Time Reinforcement Learning for Dynamic Tasks with a Parallel Soft Robot
-#   authors: J. Avtges, J. Ketchum, M. Schlafly, H. Young, T. Kim, <mark> A. Pinosky</mark>, R.L. Truby, T.D. Murphey
+#   authors: J. Avtges, J. Ketchum, M. Schlafly, H. Young, T. Kim, <span class="me"> A. Pinosky</span>, R.L. Truby, T.D. Murphey
 #   venue: Under Review # IROS 2025
 #   year: 2025
 
 - title: "NoodleBot: A Hardware Swimmer Benchmark for Reinforcement Learning"
-  authors: <mark> A. Pinosky</mark>, T.A. Berrueta, O. Li, T.D. Murphey
+  authors: <span class="me"> A. Pinosky</span>, T.A. Berrueta, O. Li, T.D. Murphey
   venue: In Preparation # CASE 2025
   year: 2025
   video: https://youtu.be/hA9SvuxFfT8
   code: https://github.com/MurpheyLab/NoodleBot
 
 - title: Single-Shot Embodied Robot Learning From Scratch
-  authors: <mark> A. Pinosky</mark>
+  authors: <span class="me"> A. Pinosky</span>
   venue: PhD Thesis, Northwestern University
   year: 2024
   link: /papers/2024PinoskyPhD.pdf
 
 - title: Embodied Active Learning of Generative Sensor-Object Models
-  authors: <mark> A. Pinosky</mark>, T.D. Murphey
+  authors: <span class="me"> A. Pinosky</span>, T.D. Murphey
   venue: International Symposium of Robotics Research (ISRR)
   year: 2024
   bibtex: pinosky2024embodied 
@@ -37,7 +37,7 @@
   video: https://youtu.be/Zd51QXglx2k
 
 - title: Maximum diffusion Reinforcement Learning
-  authors: T.A. Berrueta, <mark> A. Pinosky</mark>, T.D. Murphey
+  authors: T.A. Berrueta, <span class="me"> A. Pinosky</span>, T.D. Murphey
   venue: Nature Machine Intelligence
   year: 2024
   bibtex: berrueta2024maximum 
@@ -46,7 +46,7 @@
   code: https://github.com/MurpheyLab/MaxDiffRL
 
 - title: Safe Coverage for Heterogeneous Systems With Limited Connectivity
-  authors: A.T. Taylor, T.A. Berrueta, <mark> A. Pinosky</mark>, T.D. Murphey
+  authors: A.T. Taylor, T.A. Berrueta, <span class="me"> A. Pinosky</span>, T.D. Murphey
   venue: IEEE Robotics and Automation Letters
   year: 2024
   bibtex: taylor2024safe 
@@ -56,7 +56,7 @@
   # code: https://github.com/atulletaylor/SafetyConstrainedCoverage
 
 - title: Scale-invariant specifications for human-swarm systems
-  authors: J. Meyer, A. Prabhakar, <mark> A. Pinosky</mark>, I. Abraham, A.T. Taylor, M. Schlafly, K. Popovic, G. Diniz, B. Teich, B. Simidchieva, S. Clark, T.D. Murphey
+  authors: J. Meyer, A. Prabhakar, <span class="me"> A. Pinosky</span>, I. Abraham, A.T. Taylor, M. Schlafly, K. Popovic, G. Diniz, B. Teich, B. Simidchieva, S. Clark, T.D. Murphey
   venue: IEEE Transactions on Field Robotics
   year: 2024 # JFR was 2022
   bibtex: meyer2024scale 
@@ -65,7 +65,7 @@
   more: true
 
 - title: Hybrid Control for Combining Model-based and Model-free Reinforcement Learning
-  authors: <mark> A. Pinosky</mark>, I. Abraham, A. Broad, B. Argall, T.D. Murphey
+  authors: <span class="me"> A. Pinosky</span>, I. Abraham, A. Broad, B. Argall, T.D. Murphey
   venue: The International Journal of Robotics Research
   year: 2022
   bibtex: pinosky2022hybrid 
@@ -74,7 +74,7 @@
   video: https://youtu.be/jGp-vCKe5wI
 
 - title: Scale-Invariant Fast Functional Registration
-  authors: M. Sun, <mark> A. Pinosky</mark>, I. Abraham, T.D. Murphey
+  authors: M. Sun, <span class="me"> A. Pinosky</span>, I. Abraham, T.D. Murphey
   venue: The International Symposium of Robotics Research
   year: 2022
   bibtex: sun2022scale 
@@ -84,7 +84,7 @@
   more: true
 
 - title: A Game Benchmark for Real-Time Human-Swarm Control
-  authors: J. Meyer, <mark> A. Pinosky</mark>, T. Trzpit, E. Colgate, T.D. Murphey
+  authors: J. Meyer, <span class="me"> A. Pinosky</span>, T. Trzpit, E. Colgate, T.D. Murphey
   venue: IEEE International Conference on Automation Science and Engineering (CASE)
   year: 2022
   bibtex: meyer2022game 
@@ -94,7 +94,7 @@
   more: true
 
 - title: Hybrid control for Learning Motor Skills
-  authors: I. Abraham, A. Broad, <mark> A. Pinosky</mark>, B. Argall, T.D. Murphey
+  authors: I. Abraham, A. Broad, <span class="me"> A. Pinosky</span>, B. Argall, T.D. Murphey
   venue: Workshop on Algorithmic Foundations of Robotics (WAFR)
   year: 2021
   link: https://arxiv.org/abs/2006.03636
@@ -104,14 +104,14 @@
   more: true
 
 - title: "TESS Vibration Testing: A. Boundary Condition Case Study"
-  authors: A. Karlicek, <mark> A. Pinosky</mark>
+  authors: A. Karlicek, <span class="me"> A. Pinosky</span>
   venue: SEM International Modal Analysis Conference (IMAC)
   year: 2018
 #   bibtex: karlicek2018tess 
   more: true
   
 - title: Finite Element Modeling, Computer Simulations, and Experiments of Shear Wave Propagation for Tissue Mechanical Property Assessment
-  authors: <mark> A. Pinosky</mark>
+  authors: <span class="me"> A. Pinosky</span>
   venue: Undergraduate Honors Thesis, UNC Chapel Hill
   year: 2015
   link: https://doi.org/10.17615/tz2f-yc84
@@ -119,7 +119,7 @@
   more: true
 
 - title: Low Powered Pulse Oximetry Device Using Novel Proximity Detector Approach with Energy Harvesting
-  authors: <mark> A. Pinosky</mark>, E. Beppler, J. Dieffenderfer, A. Bozkurt
+  authors: <span class="me"> A. Pinosky</span>, E. Beppler, J. Dieffenderfer, A. Bozkurt
   venue: UNC/NCSU Joint BME Research Retreat, NCSU Undergraduate Research Symposium, and Lucas Scholars Seminar
   year: 2014
   poster: img/assist-poster_allie.jpg
