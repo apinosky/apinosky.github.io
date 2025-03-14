@@ -1,35 +1,35 @@
 # - title: Optimizing Robot Designs for Faster Learning
-#   authors: M Schlafly, J Ketchum, A Pinosky, TD Murphey
+#   authors: M. Schlafly, J. Ketchum, <mark> A. Pinosky</mark>, T.D. Murphey
 #   venue: Under Review # RSS 2025
 #   year: 2025
   
 
 # - title: Flow Matching Ergodic Coverage
-#   authors: M Sun, A Pinosky, TD Murphey
+#   authors: M. Sun, <mark> A. Pinosky</mark>, T.D. Murphey
 #   venue: Under Review # RSS 2025
 #   year: 2025
 
 
 # - title: Real-Time Reinforcement Learning for Dynamic Tasks with a Parallel Soft Robot
-#   authors: J Avtges, J Ketchum, M Schlafly, H Young, T Kim, A Pinosky, RL Truby, TD Murphey
+#   authors: J. Avtges, J. Ketchum, M. Schlafly, H. Young, T. Kim, <mark> A. Pinosky</mark>, R.L. Truby, T.D. Murphey
 #   venue: Under Review # IROS 2025
 #   year: 2025
 
 - title: "NoodleBot: A Hardware Swimmer Benchmark for Reinforcement Learning"
-  authors: A Pinosky, TA Berrueta, O Li, TD Murphey
+  authors: <mark> A. Pinosky</mark>, T.A. Berrueta, O. Li, T.D. Murphey
   venue: In Preparation # CASE 2025
   year: 2025
   video: https://youtu.be/hA9SvuxFfT8
   code: https://github.com/MurpheyLab/NoodleBot
 
 - title: Single-Shot Embodied Robot Learning From Scratch
-  authors: A Pinosky
+  authors: <mark> A. Pinosky</mark>
   venue: PhD Thesis, Northwestern University
   year: 2024
   link: /papers/2024PinoskyPhD.pdf
 
 - title: Embodied Active Learning of Generative Sensor-Object Models
-  authors: A Pinosky, TD Murphey
+  authors: <mark> A. Pinosky</mark>, T.D. Murphey
   venue: International Symposium of Robotics Research (ISRR)
   year: 2024
   bibtex: pinosky2024embodied 
@@ -37,7 +37,7 @@
   video: https://youtu.be/Zd51QXglx2k
 
 - title: Maximum diffusion Reinforcement Learning
-  authors: TA Berrueta, A Pinosky, TD Murphey
+  authors: T.A. Berrueta, <mark> A. Pinosky</mark>, T.D. Murphey
   venue: Nature Machine Intelligence
   year: 2024
   bibtex: berrueta2024maximum 
@@ -46,7 +46,7 @@
   code: https://github.com/MurpheyLab/MaxDiffRL
 
 - title: Safe Coverage for Heterogeneous Systems With Limited Connectivity
-  authors: AT Taylor, TA Berrueta, A Pinosky, TD Murphey
+  authors: A.T. Taylor, T.A. Berrueta, <mark> A. Pinosky</mark>, T.D. Murphey
   venue: IEEE Robotics and Automation Letters
   year: 2024
   bibtex: taylor2024safe 
@@ -55,8 +55,17 @@
   # link: https://ieeexplore.ieee.org/abstract/document/10669222  # paywall
   # code: https://github.com/atulletaylor/SafetyConstrainedCoverage
 
+- title: Scale-invariant specifications for human-swarm systems
+  authors: J. Meyer, A. Prabhakar, <mark> A. Pinosky</mark>, I. Abraham, A.T. Taylor, M. Schlafly, K. Popovic, G. Diniz, B. Teich, B. Simidchieva, S. Clark, T.D. Murphey
+  venue: IEEE Transactions on Field Robotics
+  year: 2024 # JFR was 2022
+  bibtex: meyer2024scale 
+  link: https://arxiv.org/abs/2212.03106
+  video: https://sites.google.com/view/scale-invariant-human-swarm
+  more: true
+
 - title: Hybrid Control for Combining Model-based and Model-free Reinforcement Learning
-  authors: A Pinosky, I Abraham, A Broad, B Argall, TD Murphey
+  authors: <mark> A. Pinosky</mark>, I. Abraham, A. Broad, B. Argall, T.D. Murphey
   venue: The International Journal of Robotics Research
   year: 2022
   bibtex: pinosky2022hybrid 
@@ -65,56 +74,53 @@
   video: https://youtu.be/jGp-vCKe5wI
 
 - title: Scale-Invariant Fast Functional Registration
-  authors: M Sun, A Pinosky, I Abraham, T Murphey
+  authors: M. Sun, <mark> A. Pinosky</mark>, I. Abraham, T.D. Murphey
   venue: The International Symposium of Robotics Research
   year: 2022
   bibtex: sun2022scale 
   link: https://arxiv.org/abs/2209.12763
   code: https://github.com/MurpheyLab/FLS
   video: https://sites.google.com/view/fls-isrr2022/
-
-- title: Scale-invariant specifications for human-swarm systems
-  authors: J Meyer, A Prabhakar, A Pinosky, I Abraham, A Taylor, M Schlafly, K Popovic, G Diniz, B Teich, B Simidchieva, S Clark, TD Murphey
-  venue: IEEE Transactions on Field Robotics
-  year: 2024
-  bibtex: meyer2024scale 
-  link: https://arxiv.org/abs/2212.03106
-  video: https://sites.google.com/view/scale-invariant-human-swarm
-
+  more: true
 
 - title: A Game Benchmark for Real-Time Human-Swarm Control
-  authors: J Meyer, A Pinosky, T Trzpit, E Colgate, TD Murphey
+  authors: J. Meyer, <mark> A. Pinosky</mark>, T. Trzpit, E. Colgate, T.D. Murphey
   venue: IEEE International Conference on Automation Science and Engineering (CASE)
   year: 2022
   bibtex: meyer2022game 
   link: https://arxiv.org/abs/2210.15852
   video: https://youtu.be/sYCxXB4FiV0
   code: https://github.com/MurpheyLab/rover_decentralized_ergodic_control
+  more: true
 
 - title: Hybrid control for Learning Motor Skills
-  authors: I Abraham, A Broad, A Pinosky, B Argall, TD Murphey
+  authors: I. Abraham, A. Broad, <mark> A. Pinosky</mark>, B. Argall, T.D. Murphey
   venue: Workshop on Algorithmic Foundations of Robotics (WAFR)
   year: 2021
   link: https://arxiv.org/abs/2006.03636
   bibtex: abraham2021hybrid 
   video: https://www.youtube.com/watch?v=ujCWfDwqqwc
   code: https://github.com/MurpheyLab/HybridLearning
+  more: true
 
-- title: "TESS Vibration Testing: A Boundary Condition Case Study"
-  authors: A Karlicek, A Pinosky
+- title: "TESS Vibration Testing: A. Boundary Condition Case Study"
+  authors: A. Karlicek, <mark> A. Pinosky</mark>
   venue: SEM International Modal Analysis Conference (IMAC)
   year: 2018
 #   bibtex: karlicek2018tess 
+  more: true
   
 - title: Finite Element Modeling, Computer Simulations, and Experiments of Shear Wave Propagation for Tissue Mechanical Property Assessment
-  authors: A Pinosky
+  authors: <mark> A. Pinosky</mark>
   venue: Undergraduate Honors Thesis, UNC Chapel Hill
   year: 2015
   link: https://doi.org/10.17615/tz2f-yc84
   poster: img/pinosky_cour-poster.jpg
+  more: true
 
 - title: Low Powered Pulse Oximetry Device Using Novel Proximity Detector Approach with Energy Harvesting
-  authors: A Pinosky, E Beppler, J Dieffenderfer, A Bozkurt
+  authors: <mark> A. Pinosky</mark>, E. Beppler, J. Dieffenderfer, A. Bozkurt
   venue: UNC/NCSU Joint BME Research Retreat, NCSU Undergraduate Research Symposium, and Lucas Scholars Seminar
   year: 2014
   poster: img/assist-poster_allie.jpg
+  more: true

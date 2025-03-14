@@ -13,22 +13,9 @@
 
 <h3 class="section-title">Experience</h3>
 <dl class="experience">
-    {% for job in site.data.jobs limit:site.num_jobs  %}
-        <dt>
-            <p class="title">{{ job.title }}</p>
-            <p class="company">{{ job.company }}</p>
-            <p class="period">{{ job.period }}</p>
-        </dt><!--
-        --><dd>
-            <p>{{ job.description }}</p>
-        </dd>
-    {% endfor %}
-</dl>
-<div>
-    <input type="checkbox" class="showMoreJobs-state" id="showMoreJobs"/>
-    <label for="showMoreJobs" class="showMoreJobs-trigger"></label>
-    <div class="showMoreJobs">
-        {% for job in site.data.jobs offset:site.num_jobs  %}
+    {% for job in site.data.jobs %}
+        {% if job.more %}
+        {% else %}
             <dt>
                 <p class="title">{{ job.title }}</p>
                 <p class="company">{{ job.company }}</p>
@@ -37,13 +24,31 @@
             --><dd>
                 <p>{{ job.description }}</p>
             </dd>
-        {% endfor %}
-    </div>
-</div>
+        {% endif %}
+    {% endfor %}
+</dl>
+<input type="checkbox" class="showMoreJobs-state" id="showMoreJobs"/>
+<label for="showMoreJobs" class="showMoreJobs-trigger"></label>
+<dl class="showMoreJobs">
+    {% for job in site.data.jobs  %}
+        {% if job.more %}
+            <dt>
+                <p class="title">{{ job.title }}</p>
+                <p class="company">{{ job.company }}</p>
+                <p class="period">{{ job.period }}</p>
+            </dt><!--
+            --><dd>
+                <p>{{ job.description }}</p>
+            </dd>
+        {% endif %}
+    {% endfor %}
+</dl>
 
 <h3 class="section-title">Publications</h3>
 <dl class="publications">
-    {% for pub in site.data.publications limit:site.num_pubs %}
+    {% for pub in site.data.publications %}
+        {% if pub.more %}
+        {% else %}
         <dt>
             {% if pub.link %}
             <p class="title"><a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a></p>
@@ -59,33 +64,34 @@
                 {% if pub.video %}<a href="{{pub.video}}" target="_blank" rel="noreferrer noopener">Video</a>{% endif %}
             </p>
         </dt>
+        {% endif %}
     {% endfor %}
 </dl>
 
-<div>
-    <input type="checkbox" class="showMorePubs-state" id="showMorePubs"/>
-    <label for="showMorePubs" class="showMorePubs-trigger"></label>
-    <div class="showMorePubs">
-        {% for pub in site.data.publications offset:site.num_pubs %}
-            <dt>
-                {% if pub.link %}
-                <p class="title"><a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a></p>
-                {% else %}
-                <p class="title">{{ pub.title }}</p>
-                {% endif %}
-                <p class="company">{{ pub.authors}}</p>
-                <p class="company">{{ pub.venue }}. {{pub.year}}.</p>
-                <p class="publication-link">{{ qualification.period }}
-                    {% if pub.supplement %}<a href="{{pub.supplement}}" target="_blank" rel="noreferrer noopener">Supplementary Material</a>{% endif %}
-                    {% if pub.bibtex %}<a href="/bibtex/{{pub.bibtex}}.bib" target="_blank">Bibtex</a>{% endif %}
-                    {% if pub.code %}<a href="{{pub.code}}" target="_blank" rel="noreferrer noopener">GitHub</a>{% endif %}
-                    {% if pub.video %}<a href="{{pub.video}}" target="_blank" rel="noreferrer noopener">Video</a>{% endif %}
-                    {% if pub.poster %}<a href="{{pub.poster}}" target="_blank" rel="noreferrer noopener">Poster</a>{% endif %}
-                </p>
-            </dt>
-        {% endfor %}
-    </div>
-</div>
+<input type="checkbox" class="showMorePubs-state" id="showMorePubs"/>
+<label for="showMorePubs" class="showMorePubs-trigger"></label>
+<dl class="showMorePubs">
+    {% for pub in site.data.publications %}
+        {% if pub.more %}
+        <dt>
+            {% if pub.link %}
+            <p class="title"><a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a></p>
+            {% else %}
+            <p class="title">{{ pub.title }}</p>
+            {% endif %}
+            <p class="company">{{ pub.authors}}</p>
+            <p class="company">{{ pub.venue }}. {{pub.year}}.</p>
+            <p class="publication-link">{{ qualification.period }}
+                {% if pub.supplement %}<a href="{{pub.supplement}}" target="_blank" rel="noreferrer noopener">Supplementary Material</a>{% endif %}
+                {% if pub.bibtex %}<a href="/bibtex/{{pub.bibtex}}.bib" target="_blank">Bibtex</a>{% endif %}
+                {% if pub.code %}<a href="{{pub.code}}" target="_blank" rel="noreferrer noopener">GitHub</a>{% endif %}
+                {% if pub.video %}<a href="{{pub.video}}" target="_blank" rel="noreferrer noopener">Video</a>{% endif %}
+                {% if pub.poster %}<a href="{{pub.poster}}" target="_blank" rel="noreferrer noopener">Poster</a>{% endif %}
+            </p>
+        </dt>
+        {% endif %}
+    {% endfor %}
+</dl>
 
 
 <h3 class="section-title">Education</h3>

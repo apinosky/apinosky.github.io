@@ -2,7 +2,8 @@
 // @description All resume styles
 
 dl {
-    margin-bottom: $spacer;
+    // margin-bottom: $spacer;
+    margin-bottom: 0px;
 }
 
 dt, dd {
@@ -70,6 +71,14 @@ dt, dd {
 
 i {
     font-style: italic;
+}
+
+mark {
+    background-color: rgba(66, 134, 244, 0);
+    // font-variant: small-caps;
+    // outline-style: inset
+    // outline-color:rgba(66, 134, 244, .1);
+    text-decoration: solid underline rgba(66, 134, 244, .25) 2.5px;
 }
 
 a {

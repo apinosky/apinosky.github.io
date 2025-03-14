@@ -8,6 +8,12 @@
   description: Developed algorithms and hardware benchmarks for active learning, reinforcement learning, and perception models in the context of robotics.
   period: 2019-2024
 
+- title: Teaching Assistant
+  company: Northwestern University
+  description: "Teaching assistant (Fall) & grader (Spring) for Machine Dynamics course. Planned and facilitated office hours (3x/week), graded bi-weekly homework assignments, and taught several lectures throughout the quarter."
+  period: 2022
+  more: true
+
 - title: Associate Technical Staff
   company: MIT Lincoln Laboratory 
   description: |
@@ -23,30 +29,30 @@
     <i> Systems Engineering Group: </i>
     Screened CCDs, designed cabling, developed assembly procedures, completed V&V tasks, and led payload cable installation at satellite integration for the camera payload for NASA’s Transiting Exoplanet Survey Satellite (TESS).
   period: 2015-2017
+  more: true
 
 - title: Teaching Assistant
-  company: Northwestern University
-  description: "Teaching assistant (Fall) & grader (Spring) for Machine Dynamics course. Planned and facilitated office hours (3x/week), graded bi-weekly homework assignments, and taught several lectures throughout the quarter."
-  period: 2022
+  company: UNC Chapel Hill
+  description: "Teaching assistant for Signals & Systems course. Planned and facilitated weekly lab sessions and bi-weekly office hours to complement coursework. Graded homework assignments and tests."
+  period: Spring 2015
+  more: true
 
 - title: Research Assistant
   company: UNC Chapel Hill
   description:  "Worked with Professor Catarina Gallippi. Developed simulation of shear wave propagation in tissue. Applied signal separation techniques to simulate ultrasound return data to delineate structure & composition of tissues."
   period: 2013-2015
   extra: Defended undergraduate honors thesis and presented a poster at UNC’s Celebration of Undergraduate Research.
+  more: true
 
 - title: Research Assistant
-  company: North Carolina State University
+  company: ASSIST Center at North Carolina State University
   description: "Worked with Professor Alper Bozkurt. Helped design a wearable, low powered pulse oximetry device to monitor environmental and personal health parameters. Improved PCB hardware and data acquisition software to integrate new nanotechnology enabled sensors."
   period: Summer & Fall 2014
   extra: Presented posters at UNC/NCSU Joint BME Research Retreat and NCSU Undergraduate Research Symposium.
-
-- title: Teaching Assistant
-  company: UNC Chapel Hill
-  description: "Teaching assistant for Signals & Systems course. Planned and facilitated weekly lab sessions and bi-weekly office hours to complement coursework. Graded homework assignments and tests."
-  period: Spring 2015
+  more: true
 
 - title: Business Analyst Intern
   company: Wix.com
   description: "Developed and disseminated Key Performance Indicators to management, product, and marketing teams Conducted business analysis and strategy development tasks. Advanced Wix’s SEC filing and pre-IPO activities."
   period: Summer 2013
+  more: true
