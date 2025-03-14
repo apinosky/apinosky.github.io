@@ -1,19 +1,18 @@
-
 # - title: Optimizing Robot Designs for Faster Learning
 #   authors: M Schlafly, J Ketchum, A Pinosky, TD Murphey
-#   venue: In Preparation # RSS 2025
+#   venue: Under Review # RSS 2025
 #   year: 2025
   
 
 # - title: Flow Matching Ergodic Coverage
 #   authors: M Sun, A Pinosky, TD Murphey
-#   venue: In Preparation # RSS 2025
+#   venue: Under Review # RSS 2025
 #   year: 2025
 
 
 # - title: Real-Time Reinforcement Learning for Dynamic Tasks with a Parallel Soft Robot
 #   authors: J Avtges, J Ketchum, M Schlafly, H Young, T Kim, A Pinosky, RL Truby, TD Murphey
-#   venue: In Preparation # IROS 2025
+#   venue: Under Review # IROS 2025
 #   year: 2025
 
 - title: "NoodleBot: A Hardware Swimmer Benchmark for Reinforcement Learning"
@@ -51,6 +50,7 @@
   venue: IEEE Robotics and Automation Letters
   year: 2024
   bibtex: taylor2024safe 
+  video: https://youtu.be/DuQUmsG80Kk
   link: /papers/2023AnnalisaRAL.pdf
   # link: https://ieeexplore.ieee.org/abstract/document/10669222  # paywall
   # code: https://github.com/atulletaylor/SafetyConstrainedCoverage
@@ -62,6 +62,7 @@
   bibtex: pinosky2022hybrid 
   link: https://journals.sagepub.com/doi/10.1177/02783649221083331
   code: https://github.com/MurpheyLab/HybridLearning
+  video: https://youtu.be/jGp-vCKe5wI
 
 - title: Scale-Invariant Fast Functional Registration
   authors: M Sun, A Pinosky, I Abraham, T Murphey
@@ -70,6 +71,7 @@
   bibtex: sun2022scale 
   link: https://arxiv.org/abs/2209.12763
   code: https://github.com/MurpheyLab/FLS
+  video: https://sites.google.com/view/fls-isrr2022/
 
 - title: Scale-invariant specifications for human-swarm systems
   authors: J Meyer, A Prabhakar, A Pinosky, I Abraham, A Taylor, M Schlafly, K Popovic, G Diniz, B Teich, B Simidchieva, S Clark, TD Murphey
