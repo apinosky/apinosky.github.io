@@ -5,36 +5,59 @@
 
 - title: PhD Student
   company: Northwestern University
-  description: Developed algorithms and hardware benchmarks for active learning, reinforcement learning, and perception models in the context of robotics.
+  description: Worked with Professor Todd Murphey. Developed algorithms and hardware benchmarks for active learning, reinforcement learning, and perception models in the context of robotics.
   period: 2019-2024
 
-- title: Teaching Assistant
-  company: Northwestern University
-  description: "Teaching assistant (Fall) & grader (Spring) for Machine Dynamics course. Planned and facilitated office hours (3x/week), graded bi-weekly homework assignments, and taught several lectures throughout the quarter."
-  period: 2022
-  more: true
+# - title: Teaching Assistant
+#   company: Northwestern University
+#   description: "Teaching assistant (Fall) & grader (Spring) for Machine Dynamics course. Planned and facilitated office hours (3x/week), graded bi-weekly homework assignments, and taught several lectures throughout the quarter."
+#   period: 2022
+#   more: true
 
-- title: Associate Technical Staff
+- title: R&D Engineer
   company: MIT Lincoln Laboratory 
   description: |
-    <i> Systems Engineering Group: </i>
-    Obtained internal funding to mature a systems analysis tool for SmallSat design. Established project milestones, conducted early-stage trade studies, and developed system validation framework. 
-    <br> <i> Rapid Prototyping Group: </i>
+    <i> Systems Engineering Role: </i>
+    Screened CCDs, designed cabling, developed assembly procedures, completed V&V tasks, and led payload cable installation at satellite integration for the camera payload for NASA’s Transiting Exoplanet Survey Satellite (TESS). 
+    <br> <i>  Rapid Prototyping Role: </i>
     Mechanical lead for a DoD payload. Conducted a system design study. Developed prototypes, drawings, test campaigns, and sell-off material. Managed technicians, designers, and contractors. Collaborated with other system leads to define interfaces, risks, and needs.
-  period: 2017-2019
+  period: |
+    2015-2019 <br>
+    <br> <i> Assistant Staff 2015-2017  </i>
+    <br> <i> Associate Staff 2017-2019  </i>
 
-- title: Assistant Technical Staff
-  company: MIT Lincoln Laboratory 
-  description: |
-    <i> Systems Engineering Group: </i>
-    Screened CCDs, designed cabling, developed assembly procedures, completed V&V tasks, and led payload cable installation at satellite integration for the camera payload for NASA’s Transiting Exoplanet Survey Satellite (TESS).
-  period: 2015-2017
-  more: true
+# - title: Associate Technical Staff
+#   company: MIT Lincoln Laboratory 
+#   description: |
+#     <i> Systems Engineering Group: </i>
+#     Obtained internal funding to mature a systems analysis tool for SmallSat design. Established project milestones, conducted early-stage trade studies, and developed system validation framework. 
+#     <br> <i> Rapid Prototyping Group: </i>
+#     Mechanical lead for a DoD payload. Conducted a system design study. Developed prototypes, drawings, test campaigns, and sell-off material. Managed technicians, designers, and contractors. Collaborated with other system leads to define interfaces, risks, and needs.
+#   period: 2017-2019
+
+# - title: Assistant Technical Staff
+#   company: MIT Lincoln Laboratory 
+#   description: |
+#     <i> Systems Engineering Group: </i>
+#     Screened CCDs, designed cabling, developed assembly procedures, completed V&V tasks, and led payload cable installation at satellite integration for the camera payload for NASA’s Transiting Exoplanet Survey Satellite (TESS).
+#   period: 2015-2017
+#   more: true
+
+# - title: Teaching Assistant
+#   company: UNC Chapel Hill
+#   description: "Teaching assistant for Signals & Systems course. Planned and facilitated weekly lab sessions and bi-weekly office hours to complement coursework. Graded homework assignments and tests."
+#   period: Spring 2015
+#   more: true
 
 - title: Teaching Assistant
-  company: UNC Chapel Hill
-  description: "Teaching assistant for Signals & Systems course. Planned and facilitated weekly lab sessions and bi-weekly office hours to complement coursework. Graded homework assignments and tests."
-  period: Spring 2015
+  description: |
+    <i>Signals & Systems: </i> (Spring 2015) Planned and facilitated labs (1x/week) and office hours (2x/week). Graded homework assignments and tests.
+    <br>
+    <i>Machine Dynamics:</i> (Fall 2022) Conducted office hours (3x/week) and taught several lectures.
+    (Spring 2022) Graded homework assignments.
+  period: |
+    UNC Chapel Hill | 2015 <br>
+    Northwestern | 2022 <br>
   more: true
 
 - title: Research Assistant
@@ -43,7 +66,7 @@
   period: 2013-2015
   extra: Defended undergraduate honors thesis and presented a poster at UNC’s Celebration of Undergraduate Research.
   more: true
-
+  
 - title: Research Assistant
   company: ASSIST Center at North Carolina State University
   description: "Worked with Professor Alper Bozkurt. Helped design a wearable, low powered pulse oximetry device to monitor environmental and personal health parameters. Improved PCB hardware and data acquisition software to integrate new nanotechnology enabled sensors."
