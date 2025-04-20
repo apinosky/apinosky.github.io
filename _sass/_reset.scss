@@ -47,3 +47,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+button {
+	all: unset;
+	display: inline-block;
+	padding: 0;
+	outline: 0;
+	background: white;
+	border-radius: 4px;
+	font: inherit;
+	cursor: help;
+	transition: all linear .2s;
+}
+
+button:hover{
+	background: rgba(66, 134, 244, .3);
+}

@@ -45,16 +45,35 @@
 </dl>
 
 <h3 class="section-title">Publications</h3>
+<div class="keywords">
+    <!-- Key:  -->
+    <span><i class="fa-solid fa-rotate"></i>  Reinforcement Learning</span>
+    <span><i class="fa-solid fa-eye"></i> Robot Perception</span>
+    <span><i class="fa-solid fa-shoe-prints"></i> Coverage</span>
+    <span><i class="fa-solid fa-users"></i> Swarms</span>
+    <span><i class="fa-solid fa-handshake"></i> Human-Robot Interaction</span>
+    <span><i class="fa-solid fa-robot"></i> Hardware Experiments</span>
+    <span><i class="fa-solid fa-check-square"></i> Learning Benchmark</span>
+</div>
 <dl class="publications">
     {% for pub in site.data.publications %}
         {% if pub.more %}
         {% else %}
         <dt>
-            {% if pub.link %}
-            <p class="title"><a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a></p>
-            {% else %}
-            <p class="title">{{ pub.title }}</p>
-            {% endif %}
+            <p class="title">
+                {% if pub.link %}
+                    <a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a>
+                {% else %}
+                    {{ pub.title }}
+                {% endif %}
+                {% if pub.rl %}<i class="fa-solid fa-rotate" title="Reinforcement Learning"></i>{% endif %}
+                {% if pub.perception %}<i class="fa-solid fa-eye" title="Robot Perception"></i>{% endif %}
+                {% if pub.coverage %}<i class="fa-solid fa-shoe-prints" title="Coverage"></i>{% endif %}
+                {% if pub.swarms %}<i class="fa-solid fa-users" title="Swarms"></i>{% endif %}
+                {% if pub.hri %}<i class="fa-solid fa-handshake" title="Human-Robot Interaction"></i>{% endif %}
+                {% if pub.hardware %}<i class="fa-solid fa-robot" title="Hardware Experiments"></i>{% endif %}
+                {% if pub.benchmark %}<i class="fa-solid fa-check-square" title="Learning Benchmark"></i>{% endif %}
+            </p>
             <p class="company">{{ pub.authors}}</p>
             <p class="company">{{ pub.venue }}. {{pub.year}}.</p>
             <p class="publication-link">{{ qualification.period }}
@@ -74,11 +93,20 @@
     {% for pub in site.data.publications %}
         {% if pub.more %}
         <dt>
-            {% if pub.link %}
-            <p class="title"><a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a></p>
-            {% else %}
-            <p class="title">{{ pub.title }}</p>
-            {% endif %}
+            <p class="title">
+                {% if pub.link %}
+                    <a href="{{pub.link}}" target="_blank" rel="noreferrer noopener">{{ pub.title }}</a>
+                {% else %}
+                    {{ pub.title }}
+                {% endif %}
+                {% if pub.rl %}<i class="fa-solid fa-rotate" title="Reinforcement Learning"></i>{% endif %}
+                {% if pub.perception %}<i class="fa-solid fa-eye" title="Robot Perception"></i>{% endif %}
+                {% if pub.coverage %}<i class="fa-solid fa-shoe-prints" title="Coverage"></i>{% endif %}
+                {% if pub.swarms %}<i class="fa-solid fa-users" title="Swarms"></i>{% endif %}
+                {% if pub.hri %}<i class="fa-solid fa-handshake" title="Human-Robot Interaction"></i>{% endif %}
+                {% if pub.hardware %}<i class="fa-solid fa-robot" title="Hardware Experiments"></i>{% endif %}
+                {% if pub.benchmark %}<i class="fa-solid fa-check-square" title="Learning Benchmark"></i>{% endif %}
+            </p>
             <p class="company">{{ pub.authors}}</p>
             <p class="company">{{ pub.venue }}. {{pub.year}}.</p>
             <p class="publication-link">{{ qualification.period }}

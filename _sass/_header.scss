@@ -71,7 +71,8 @@ header {
 }
 
 .social {
-    a {
+    span {
         margin-right: $spacer;
+        white-space: nowrap;
     }
 }

@@ -1,14 +1,18 @@
+## keywords
+# rl
+# perception
+# coverage
+# swarms
+# hri
+# hardware
+# benchmark
+
+
 # - title: Optimizing Robot Designs for Faster Learning
 #   authors: M. Schlafly, J. Ketchum, <span class="me"> A. Pinosky</span>, T.D. Murphey
-#   venue: Under Review # RSS 2025
+#   venue: Under Review # CORL 2025
 #   year: 2025
   
-
-# - title: Flow Matching Ergodic Coverage
-#   authors: M. Sun, <span class="me"> A. Pinosky</span>, T.D. Murphey
-#   venue: Under Review # RSS 2025
-#   year: 2025
-
 
 # - title: Real-Time Reinforcement Learning for Dynamic Tasks with a Parallel Soft Robot
 #   authors: J. Avtges, J. Ketchum, M. Schlafly, H. Young, T. Kim, <span class="me"> A. Pinosky</span>, R.L. Truby, T.D. Murphey
@@ -17,10 +21,23 @@
 
 - title: "NoodleBot: A Hardware Swimmer Benchmark for Reinforcement Learning"
   authors: <span class="me"> A. Pinosky</span>, T.A. Berrueta, O. Li, T.D. Murphey
-  venue: In Preparation # CASE 2025
+  venue: Under Review # CASE 2025
   year: 2025
   video: https://youtu.be/hA9SvuxFfT8
   code: https://github.com/MurpheyLab/NoodleBot
+  rl: true
+  hardware: true
+  benchmark: true
+
+- title: Flow Matching Ergodic Coverage
+  authors: M. Sun, <span class="me"> A. Pinosky</span>, T.D. Murphey
+  venue: "Robotics: Science and Systems (RSS)"
+  year: 2025
+  code: https://github.com/MurpheyLab/lqr-flow-matching
+  bibtex: sun2025flowmatching 
+  video: https://murpheylab.github.io/lqr-flow-matching/ 
+  coverage: true
+  hardware: true
 
 - title: Single-Shot Embodied Robot Learning From Scratch
   authors: <span class="me"> A. Pinosky</span>
@@ -35,8 +52,11 @@
   bibtex: pinosky2024embodied 
   link: https://arxiv.org/abs/2410.11130
   video: https://youtu.be/Zd51QXglx2k
+  perception: true
+  coverage: true
+  hardware: true
 
-- title: Maximum diffusion Reinforcement Learning
+- title: Maximum Diffusion Reinforcement Learning
   authors: T.A. Berrueta, <span class="me"> A. Pinosky</span>, T.D. Murphey
   venue: Nature Machine Intelligence
   year: 2024
@@ -44,6 +64,7 @@
   link: https://arxiv.org/abs/2309.15293
   video: https://www.youtube.com/playlist?list=PLO5AGPa3klrCTSO-t7HZsVNQinHXFQmn9
   code: https://github.com/MurpheyLab/MaxDiffRL
+  rl: true
 
 - title: Safe Coverage for Heterogeneous Systems With Limited Connectivity
   authors: A.T. Taylor, T.A. Berrueta, <span class="me"> A. Pinosky</span>, T.D. Murphey
@@ -54,8 +75,10 @@
   link: /papers/2023AnnalisaRAL.pdf
   # link: https://ieeexplore.ieee.org/abstract/document/10669222  # paywall
   # code: https://github.com/atulletaylor/SafetyConstrainedCoverage
+  coverage: true
+  swarms: true
 
-- title: Scale-invariant specifications for human-swarm systems
+- title: Scale-Invariant Specifications for Human-Swarm Systems
   authors: J. Meyer, A. Prabhakar, <span class="me"> A. Pinosky</span>, I. Abraham, A.T. Taylor, M. Schlafly, K. Popovic, G. Diniz, B. Teich, B. Simidchieva, S. Clark, T.D. Murphey
   venue: IEEE Transactions on Field Robotics
   year: 2024 # JFR was 2022
@@ -63,8 +86,12 @@
   link: https://arxiv.org/abs/2212.03106
   video: https://sites.google.com/view/scale-invariant-human-swarm
   more: true
+  coverage: true
+  swarms: true
+  hri: true
+  hardware: true
 
-- title: Hybrid Control for Combining Model-based and Model-free Reinforcement Learning
+- title: Hybrid Control for Combining Model-Based and Model-Free Reinforcement Learning
   authors: <span class="me"> A. Pinosky</span>, I. Abraham, A. Broad, B. Argall, T.D. Murphey
   venue: The International Journal of Robotics Research
   year: 2022
@@ -72,6 +99,8 @@
   link: https://journals.sagepub.com/doi/10.1177/02783649221083331
   code: https://github.com/MurpheyLab/HybridLearning
   video: https://youtu.be/jGp-vCKe5wI
+  rl: true
+  hardware: true
 
 - title: Scale-Invariant Fast Functional Registration
   authors: M. Sun, <span class="me"> A. Pinosky</span>, I. Abraham, T.D. Murphey
@@ -82,6 +111,7 @@
   code: https://github.com/MurpheyLab/FLS
   video: https://sites.google.com/view/fls-isrr2022/
   more: true
+  hardware: true
 
 - title: A Game Benchmark for Real-Time Human-Swarm Control
   authors: J. Meyer, <span class="me"> A. Pinosky</span>, T. Trzpit, E. Colgate, T.D. Murphey
@@ -92,8 +122,11 @@
   video: https://youtu.be/sYCxXB4FiV0
   code: https://github.com/MurpheyLab/rover_decentralized_ergodic_control
   more: true
+  swarms: true
+  hri: true
+  benchmark: true
 
-- title: Hybrid control for Learning Motor Skills
+- title: Hybrid Control for Learning Motor Skills
   authors: I. Abraham, A. Broad, <span class="me"> A. Pinosky</span>, B. Argall, T.D. Murphey
   venue: Workshop on Algorithmic Foundations of Robotics (WAFR)
   year: 2021
@@ -102,6 +135,8 @@
   video: https://www.youtube.com/watch?v=ujCWfDwqqwc
   code: https://github.com/MurpheyLab/HybridLearning
   more: true
+  rl: true
+  hardware: true
 
 - title: "TESS Vibration Testing: A. Boundary Condition Case Study"
   authors: A. Karlicek, <span class="me"> A. Pinosky</span>

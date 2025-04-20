@@ -1,18 +1,12 @@
 - title: Postdoc Researcher
   company: Northwestern University
   description: Building real-time sensor-agnostic perception models for robot learning.
-  period: 2024-Present
+  period: 2025-Present
 
-- title: PhD Student
+- title: Graduate Researcher
   company: Northwestern University
   description: Worked with Professor Todd Murphey. Developed algorithms and hardware benchmarks for active learning, reinforcement learning, and perception models in the context of robotics.
   period: 2019-2024
-
-# - title: Teaching Assistant
-#   company: Northwestern University
-#   description: "Teaching assistant (Fall) & grader (Spring) for Machine Dynamics course. Planned and facilitated office hours (3x/week), graded bi-weekly homework assignments, and taught several lectures throughout the quarter."
-#   period: 2022
-#   more: true
 
 - title: R&D Engineer
   company: MIT Lincoln Laboratory 
@@ -25,6 +19,13 @@
     2015-2019 <br>
     <br> <i> Assistant Staff 2015-2017  </i>
     <br> <i> Associate Staff 2017-2019  </i>
+
+# ## old separated out version 
+# - title: Teaching Assistant
+#   company: Northwestern University
+#   description: "Teaching assistant (Fall) & grader (Spring) for Machine Dynamics course. Planned and facilitated office hours (3x/week), graded bi-weekly homework assignments, and taught several lectures throughout the quarter."
+#   period: 2022
+#   more: true
 
 # - title: Associate Technical Staff
 #   company: MIT Lincoln Laboratory 
@@ -48,6 +49,7 @@
 #   description: "Teaching assistant for Signals & Systems course. Planned and facilitated weekly lab sessions and bi-weekly office hours to complement coursework. Graded homework assignments and tests."
 #   period: Spring 2015
 #   more: true
+# ##
 
 - title: Teaching Assistant
   description: |
