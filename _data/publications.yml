@@ -19,15 +19,16 @@
 #   venue: Under Review # IROS 2025
 #   year: 2025
 
-- title: "NoodleBot: A Hardware Swimmer Benchmark for Reinforcement Learning"
+- title: "Physical State Exploration for Reinforcement Learning from Scratch"
   authors: <span class="me"> A. Pinosky</span>, T.A. Berrueta, O. Li, T.D. Murphey
   venue: Under Review # CASE 2025
   year: 2025
-  video: https://youtu.be/hA9SvuxFfT8
+  video: https://youtu.be/mL9JkPohqEE
   code: https://github.com/MurpheyLab/NoodleBot
   rl: true
   hardware: true
   benchmark: true
+  link: /papers/2025PinoskyNoodleBot.pdf
 
 - title: Flow Matching Ergodic Coverage
   authors: M. Sun, <span class="me"> A. Pinosky</span>, T.D. Murphey
@@ -36,6 +37,7 @@
   code: https://github.com/MurpheyLab/lqr-flow-matching
   bibtex: sun2025flowmatching 
   video: https://murpheylab.github.io/lqr-flow-matching/ 
+  # video: https://youtu.be/465LdOJjVyo
   coverage: true
   hardware: true
 
@@ -144,7 +146,7 @@
   year: 2018
 #   bibtex: karlicek2018tess 
   more: true
-  
+
 - title: Finite Element Modeling, Computer Simulations, and Experiments of Shear Wave Propagation for Tissue Mechanical Property Assessment
   authors: <span class="me"> A. Pinosky</span>
   venue: Undergraduate Honors Thesis, UNC Chapel Hill
