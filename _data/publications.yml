@@ -36,8 +36,9 @@
   year: 2025
   code: https://github.com/MurpheyLab/lqr-flow-matching
   bibtex: sun2025flowmatching 
-  video: https://murpheylab.github.io/lqr-flow-matching/ 
-  # video: https://youtu.be/465LdOJjVyo
+  link: https://arxiv.org/abs/2504.17872
+  # video: https://murpheylab.github.io/lqr-flow-matching/ 
+  video: https://youtu.be/465LdOJjVyo
   coverage: true
   hardware: true
 
